@@ -14,31 +14,67 @@ html {
 
 header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: stretch;
-    height: 80px;
-    background-color: cyan;
-    width: 100%;
-    border-bottom: 3px solid yellow;
-    
+    background-color: #a9a9a9;
+    min-height: 30rem;
+    padding-bottom: 5px #1a1110;
 }
 
 .ylapalkki {
-    text-align: left;
+    display: flex;
+}
+
+.nimi {
+    font-size: 1000%;
+    margin: 2rem;
+    padding-top: 10rem;
+    color: #1a1110;
+}
+
+.info1 {
+    margin-left: auto;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 3rem;
+    padding: 2rem;
+    
 }
 
 /* Navigation */
 .navigation {
-    height: 100%;
     display: flex;
+    gap: 8rem;
+    margin-left: auto;
+    padding: 2rem;
     flex-direction: row;
-    background-color: wheat;
     justify-content: flex-end;
     align-items: center;
-    gap: 2em;
-    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 2rem;
 }
-/* Icons */
+
+.nav {
+    text-decoration: none;
+    color: #1a1110;
+}
+
+.nav.active {
+    text-decoration: underline;
+}
+
+.nav:hover {
+    color: #8a0707;
+}
+
 /* Main & Body */
+
+body {
+    background-color: #0f0f0f;
+}
+
+.infotext {
+    font: white;
+}
 /* Footer */
+/* Icons */
 /* Mobile-specifications */
