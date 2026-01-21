@@ -73,7 +73,11 @@ body {
 }
 
 .infotext {
-    font: white;
+    padding: 4rem;
+    width: 50%;
+    margin-left: auto;
+    color: #f5f5f5;
+    font-size: 2rem;
 }
 /* Footer */
 /* Icons */
